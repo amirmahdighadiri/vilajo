@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumb from "../../components/lsyout/Breadcrumb/Breadcrumb";
+import Breadcrumb from "../../../components/lsyout/Breadcrumb/Breadcrumb";
 
 function Page(props) {
     return (

@@ -1,4 +1,3 @@
-import Header from '../components/lsyout/Header/Header';
 import "./globals.css";
 import localFont from "next/font/local";
 
@@ -48,11 +47,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl" className={`w-full h-full`}>
     <body className={`${vazir.variable} font-vazir`}>
-      <Header />
-      <main>
-        {children}
-      </main>
-      </body>
+
+    {children}
+
+    </body>
     </html>
   );
 }
