@@ -37,7 +37,7 @@ const vazir = localFont({
 export const metadata = {
     title: {
         default: "ویلاجو | رزرو ویلا و اقامتگاه",
-        template: "%s | ویلاجو",
+        template: "ویلاجو | %s",
     },
     description:
         "ویلاجو؛ تجربه‌ای متفاوت از رزرو ویلا، اقامتگاه و هتل در مقصد مورد علاقه شما.",

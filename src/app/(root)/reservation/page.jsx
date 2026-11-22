@@ -1,5 +1,9 @@
 import React from 'react';
 
+export const metadata = {
+    title: "رزرو اقامتگاه",
+};
+
 function Page(props) {
     return (
         <div className="min-h-screen bg-background">
@@ -107,7 +111,7 @@ function Page(props) {
                     <h2 className="mb-6 text-2xl font-bold text-primary sm:mb-8 sm:text-3xl">
                         روش پرداخت
                     </h2>
-                    <div className="w-full overflow-hidden rounded-2xl border border-stone bg-surface w-full">
+                    <div className="w-full overflow-hidden rounded-2xl border border-stone bg-surface">
 
                         <label className="flex min-h-16 cursor-pointer items-center gap-3 border-b border-stone px-4 transition hover:bg-background sm:px-5">
                             <input

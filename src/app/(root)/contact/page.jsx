@@ -1,6 +1,8 @@
 import React from 'react';
 import Breadcrumb from "../../../components/lsyout/Breadcrumb/Breadcrumb";
-
+export const metadata = {
+    title: "تماس با ما",
+};
 function Page(props) {
     return (
         <div className="relative min-h-0 w-full">
