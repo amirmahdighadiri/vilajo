@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from "next/link";
+import { House, CircleDollarSign, Clock } from "lucide-react";
 
 export const metadata = {
     title: "ورود",
@@ -166,19 +167,7 @@ function Page(props) {
 
                             <div className="flex items-center gap-4">
                                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
-                                    <svg
-                                        className="h-6 w-6"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="1.8"
-                                            d="M3 10.5 12 3l9 7.5M5 9v11h14V9M9 20v-6h6v6"
-                                        />
-                                    </svg>
+                                    <House className="h-6 w-6" aria-hidden="true" />
                                 </div>
 
                                 <div>
@@ -193,19 +182,7 @@ function Page(props) {
 
                             <div className="flex items-center gap-4">
                                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
-                                    <svg
-                                        className="h-6 w-6"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="1.8"
-                                            d="M12 8c-2.2 0-4 1.1-4 2.5S9.8 13 12 13s4 1.1 4 2.5S14.2 18 12 18m0-10V6m0 14v-2"
-                                        />
-                                    </svg>
+                                    <CircleDollarSign className="h-6 w-6" aria-hidden="true" />
                                 </div>
 
                                 <div>
@@ -220,19 +197,7 @@ function Page(props) {
 
                             <div className="flex items-center gap-4">
                                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/15">
-                                    <svg
-                                        className="h-6 w-6"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="1.8"
-                                            d="M12 8v4l3 2m6-2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                                        />
-                                    </svg>
+                                    <Clock className="h-6 w-6" aria-hidden="true" />
                                 </div>
 
                                 <div>
